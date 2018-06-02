@@ -46,7 +46,7 @@
                         <div class="container">
                             <div class="row" align="center">
                                 <div class="col-xs-12 col-sm-12 col-lg-12 cursive">
-                                    <h1 class="font-white">Choose Subscription</h1> 
+                                    <h1 class="font-white">Subscription</h1> 
                                 </div>
                             </div>
                         </div>
@@ -67,24 +67,28 @@
                    
                 <section class="popular">
                     <div class="container">
+                        <div class="title text-xs-center m-b-30">
+                            <h2>Choose your subscription</h2>
+                            <p class="lead">The easiest way to your favourite breakfast</p>
+                        </div>
                         <div class="row">
                             <!-- Each popular food item starts -->
                             <div class="col-xs-12 col-sm-6 col-md-4 food-item">
                                 <div class="food-item-wrap">
-                                    <div class="figure-wrap bg-image" data-image-src="images/food1.jpg">
+                                    <div class="figure-wrap bg-image" data-image-src="images/veg.jpg">
                                         <div class="distance"><i class="fa fa-pin"></i>1240m</div>
                                         <div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
                                         <div class="review pull-right"><a href="#">198 reviews</a> </div>
                                     </div>
                                     <div class="content">
-                                        <h5><a href="profile.html">The South"s Best Fried Chicken</a></h5>
+                                        <h5><a href="profile.html">Veg Breakfast</a></h5>
                                         <div class="product-name">Fried Chicken with cheese</div>
-                                        <div class="price-btn-block"> <span class="price">₹ 15,99</span> <a href="#" class="btn theme-btn-dash pull-right">Order Now</a> </div>
+                                        <div class="price-btn-block"> <span class="price">₹ 900/month</span> <a href="#" class="btn theme-btn-dash pull-right">Subscribe Now</a> </div>
                                     </div>
                                     <div class="restaurant-block">
                                         <div class="left">
-                                            <a class="pull-left" href="profile.html"> <img src="images/logo1.png" alt="Restaurant logo" /> </a>
-                                            <div class="pull-left right-text"> <a href="#">Chicken Restaurant</a> <span>68 5th Avenue New York</span> </div>
+                                            <a class="pull-left" href="profile.html"> <img src="images/logo-small.jpg" alt="Restaurant logo" height="50" width="50" /></a>
+                                            <div class="pull-left right-text"> <a href="#">Pranzohub</a> <span>Bhubaneswar</span> </div>
                                         </div>
                                         <div class="right-like-part pull-right"> <i class="fa fa-heart-o"></i> <span>48</span> </div>
                                     </div>
@@ -94,20 +98,20 @@
                             <!-- Each popular food item starts -->
                             <div class="col-xs-12 col-sm-6 col-md-4 food-item">
                                 <div class="food-item-wrap">
-                                    <div class="figure-wrap bg-image" data-image-src="images/food2.jpg">
+                                    <div class="figure-wrap bg-image" data-image-src="images/non-veg.jpg">
                                         <div class="distance"><i class="fa fa-pin"></i>1240m</div>
                                         <div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
                                         <div class="review pull-right"><a href="#">198 reviews</a> </div>
                                     </div>
                                     <div class="content">
-                                        <h5><a href="profile.html">The South"s Best Fried Chicken</a></h5>
+                                        <h5><a href="profile.html">Non Veg Breakfast</a></h5>
                                         <div class="product-name">Fried Chicken with cheese</div>
-                                        <div class="price-btn-block"> <span class="price">₹ 18,49</span> <a href="#" class="btn theme-btn-dash pull-right">Order Now</a> </div>
+                                        <div class="price-btn-block"> <span class="price">₹ 900/month</span> <a href="#" class="btn theme-btn-dash pull-right">Subscribe Now</a> </div>
                                     </div>
                                     <div class="restaurant-block">
                                         <div class="left">
-                                            <a class="pull-left" href="profile.html"> <img src="images/logo2.png" alt="Restaurant logo" /> </a>
-                                            <div class="pull-left right-text"> <a href="#">Chicken Restaurant</a> <span>68 5th Avenue New York</span> </div>
+                                            <a class="pull-left" href="profile.html"> <img src="images/logo-small.jpg" alt="Restaurant logo" height="50" width="50" /> </a>
+                                            <div class="pull-left right-text"> <a href="#">Pranzohub</a> <span>Bhubaneswar</span> </div>
                                         </div>
                                         <div class="right-like-part pull-right"> <i class="fa fa-heart-o"></i> <span>48</span> </div>
                                     </div>
@@ -117,20 +121,20 @@
                             <!-- Each popular food item starts -->
                             <div class="col-xs-12 col-sm-6 col-md-4 food-item">
                                 <div class="food-item-wrap">
-                                    <div class="figure-wrap bg-image" data-image-src="images/food3.jpg">
+                                    <div class="figure-wrap bg-image" data-image-src="images/smoothie.jpg">
                                         <div class="distance"><i class="fa fa-pin"></i>1240m</div>
                                         <div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
                                         <div class="review pull-right"><a href="#">198 reviews</a> </div>
                                     </div>
                                     <div class="content">
-                                        <h5><a href="profile.html">The South"s Best Fried Chicken</a></h5>
+                                        <h5><a href="profile.html">Smoothies</a></h5>
                                         <div class="product-name">Fried Chicken with cheese</div>
-                                        <div class="price-btn-block"> <span class="price">₹ 21,19</span> <a href="#" class="btn theme-btn-dash pull-right">Order Now</a> </div>
+                                        <div class="price-btn-block"> <span class="price">₹ 300/month</span> <a href="#" class="btn theme-btn-dash pull-right">Subscribe Now</a> </div>
                                     </div>
                                     <div class="restaurant-block">
                                         <div class="left">
-                                            <a class="pull-left" href="profile.html"> <img src="images/logo3.png" alt="Restaurant logo" /> </a>
-                                            <div class="pull-left right-text"> <a href="#">Chicken Restaurant</a> <span>68 5th Avenue New York</span> </div>
+                                            <a class="pull-left" href="profile.html"> <img src="images/logo-small.jpg" alt="Restaurant logo" height="50" width="50" /></a>
+                                            <div class="pull-left right-text"> <a href="#">Pranzohub</a> <span>Bhubaneswar</span> </div>
                                         </div>
                                         <div class="right-like-part pull-right"> <i class="fa fa-heart-o"></i> <span>48</span> </div>
                                     </div>

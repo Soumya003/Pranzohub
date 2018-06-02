@@ -11,7 +11,7 @@
                             <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Food</a>
                                 <div class="dropdown-menu"> <a class="dropdown-item" href="food_results.html">Food results</a> <a class="dropdown-item" href="map_results.html">Map results</a></div>
                             </li> -->
-                            <li class="nav-item"> <a class="nav-link" href="subscription.php">Subscriptions<span class="sr-only">(current)</span></a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="subscription.php">Subscription<span class="sr-only">(current)</span></a> </li>
                             <li class="nav-item"> <a class="nav-link" href="contact.php">Contact Us <span class="sr-only">(current)</span></a> </li>
                             <li class="nav-item"> <a class="nav-link" href="about.php">About Us <span class="sr-only">(current)</span></a> </li>
                             <li class="nav-item"><a href="#" class="btn theme-btn-dash" data-toggle="modal" data-target="#myModal" style="font-weight: bold;">Login/Sign Up</a></li>
