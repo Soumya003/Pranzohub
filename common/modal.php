@@ -1,5 +1,5 @@
 <div class="modal fade bs-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-sm" >
+	<div class="modal-dialog">
 		<div class="modal-content">
 			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 			<div class="modal-body">
@@ -9,9 +9,15 @@
 						<div id="myTabContent" class="tab-content">
 							<!-- Sign In Tab Starts -->
 				            <div class="tab-pane fade active in" id="signin">
-				                <h2>Sign In</h2>
-				                <a href="#signup" data-toggle="tab">Don,t have an account?</a>
-				                <br><br>
+				            	<div class="row">
+				            		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+				                		<h2>Sign In</h2>
+				                	</div>
+				                	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12" style="padding-top: 10px">
+				                		<a class="pull-right" href="#signup" data-toggle="tab">Don,t have an account?</a>
+				            		</div>
+				            	</div>
+				                <br>
 				                <form class="form-horizontal">
 				                  <fieldset>
 				                    <!-- Sign In Form -->
@@ -29,6 +35,8 @@
 				                      <div class="controls">
 				                        <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
 				                      </div>
+				                      <div>
+				                      <a class="pull-right" href="#" style="margin-top: 5px">Forgot password?</a>
 				                    </div>
 
 				                    <!-- Multiple Checkboxes (inline) -->
@@ -55,9 +63,15 @@
 
 				            <!-- Sign Up Tab Starts -->
 				            <div class="tab-pane fade" id="signup">
-				                <h2>Sign Up</h2>
-				                <a href="#signin" data-toggle="tab">Already have an account?</a>
-				                <br><br>
+				                <div class="row">
+				            		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+				                		<h2>Register</h2>
+				                	</div>
+				                	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12" style="padding-top: 10px;">
+				                		<a class="pull-right" href="#signin" data-toggle="tab">Already have an account?</a>
+				            		</div>
+				            	</div>
+				            	<br>				          
 				                <form class="form-horizontal">
 				                  <fieldset>
 				                    <!-- Sign Up Form -->
@@ -117,7 +131,7 @@
 				</div>
 
 				<div class="row omb_socialButtons">
-					<h6>Sign In With</h6>
+					<h6>Connect With</h6>
 					<br>
 		    	    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				        <a href="#" class="btn btn-lg btn-block omb_btn-facebook">

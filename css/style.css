@@ -2887,10 +2887,18 @@ a[aria-expanded=false] .fa-angle-down {
 *   Login Modal Navbar
 ==========================5=*/
 
+.modal {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .modal-content{
-    width:400px;
-    padding: 20px;
+    width:455px;
+    height: inherit;
+    padding: 10px;
     border-radius: 7px;
+    margin: 0 auto; 
     /*border-color: #9ecaed;
     box-shadow: 0 0 25px #f30;
     outline: none;*/
@@ -2968,14 +2976,31 @@ a[aria-expanded=false] .fa-angle-down {
     text-align: center;
 }
 
-@media (orientation:landscape) and (max-width: 600px) {                  
-   .content-to-hide {
-      display: none;
-    }
+@media (orientation:landscape) and (max-width: 1000px) {    
+.modal-content{
+    width:inherit;
+    /*border-color: #9ecaed;
+    box-shadow: 0 0 25px #f30;
+    outline: none;*/
+}   
+
+.modal {
+    position: relative;
+}     
+
 }
 
 @media (orientation:portrait) {
-   .content-to-hide {
-      display: none; /* visibility: none; */
-    }
+.modal-content{
+    width:inherit;
+    margin-top: 20px;
+    /*border-color: #9ecaed;
+    box-shadow: 0 0 25px #f30;
+    outline: none;*/
+}   
+
+.modal {
+    position: relative;
+}         
+   
 }
