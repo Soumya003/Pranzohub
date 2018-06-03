@@ -112,7 +112,7 @@
 				                    <div class="control-group">
 				                      <label class="control-label" for="confirmsignup"></label>
 				                      <div class="controls">
-				                        <a href="#" class="btn theme-btn-dash">Login</a>
+				                        <a href="registration.php" class="btn theme-btn-dash">Register</a>
 				                      </div>
 				                    </div>
 				                  </fieldset>

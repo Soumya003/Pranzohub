@@ -83,7 +83,7 @@
                                     <div class="content">
                                         <h5><a href="profile.html">Veg Breakfast</a></h5>
                                         <div class="product-name">Fried Chicken with cheese</div>
-                                        <div class="price-btn-block"> <span class="price">₹ 900/month</span> <a href="#" class="btn theme-btn-dash pull-right">Subscribe Now</a> </div>
+                                        <div class="price-btn-block"> <span class="price">₹ 900/month</span> <a href="selection.php" class="btn theme-btn-dash pull-right" onclick="subscribeVegFunction()">Subscribe Now</a> </div>
                                     </div>
                                     <div class="restaurant-block">
                                         <div class="left">
@@ -106,7 +106,7 @@
                                     <div class="content">
                                         <h5><a href="profile.html">Non Veg Breakfast</a></h5>
                                         <div class="product-name">Fried Chicken with cheese</div>
-                                        <div class="price-btn-block"> <span class="price">₹ 900/month</span> <a href="#" class="btn theme-btn-dash pull-right">Subscribe Now</a> </div>
+                                        <div class="price-btn-block"> <span class="price">₹ 900/month</span> <a href="selection.php" class="btn theme-btn-dash pull-right" onclick="subscribeNonvegFunction()">Subscribe Now</a> </div>
                                     </div>
                                     <div class="restaurant-block">
                                         <div class="left">
@@ -129,7 +129,7 @@
                                     <div class="content">
                                         <h5><a href="profile.html">Smoothies</a></h5>
                                         <div class="product-name">Fried Chicken with cheese</div>
-                                        <div class="price-btn-block"> <span class="price">₹ 300/month</span> <a href="#" class="btn theme-btn-dash pull-right">Subscribe Now</a> </div>
+                                        <div class="price-btn-block"> <span class="price">₹ 300/month</span> <a href="selection.php" class="btn theme-btn-dash pull-right" onclick="subscribeSmoothieFunction()">Subscribe Now</a> </div>
                                     </div>
                                     <div class="restaurant-block">
                                         <div class="left">
@@ -193,6 +193,7 @@
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
     <script src="js/bar.js"></script>
+    <script src="js/selection.js"></script>
 </body>
 
 
