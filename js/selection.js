@@ -40,3 +40,109 @@ function selectFunction() {
     }
 
 }
+
+
+$(document).ready(function(){
+
+var quantitiy=0;
+   $('.veg-quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var vegquantity = parseInt($('#veg-quantity').val());
+        
+        // If is not undefined
+            if(vegquantity<9){
+            $('#veg-quantity').val(vegquantity + 1);
+        	}
+          
+            // Increment
+        
+    });
+
+     $('.veg-quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var vegquantity = parseInt($('#veg-quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(vegquantity>0){
+            $('#veg-quantity').val(vegquantity - 1);
+            }
+    });
+    
+});
+
+$(document).ready(function(){
+
+var quantitiy=0;
+   $('.nonveg-quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var nonvegquantity = parseInt($('#nonveg-quantity').val());
+        
+        // If is not undefined
+            if(nonvegquantity<9){
+            $('#nonveg-quantity').val(nonvegquantity + 1);
+        	}
+          
+            // Increment
+        
+    });
+
+     $('.nonveg-quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var nonvegquantity = parseInt($('#nonveg-quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(nonvegquantity>0){
+            $('#nonveg-quantity').val(nonvegquantity - 1);
+            }
+    });
+    
+});
+
+$(document).ready(function(){
+
+var quantitiy=0;
+   $('.smoothie-quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var smoothiequantity = parseInt($('#smoothie-quantity').val());
+        
+        // If is not undefined
+            if(smoothiequantity<9){
+            $('#smoothie-quantity').val(smoothiequantity + 1);
+        	}
+          
+            // Increment
+        
+    });
+
+     $('.smoothie-quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var smoothiequantity = parseInt($('#smoothie-quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(smoothiequantity>0){
+            $('#smoothie-quantity').val(smoothiequantity - 1);
+            }
+    });
+    
+});

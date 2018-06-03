@@ -26,3 +26,4 @@
             <!-- /.navbar -->
 </header>
 <?php include 'modal.php'; ?>
+<?php include 'modules/cart.php'; ?>

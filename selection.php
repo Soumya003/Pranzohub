@@ -43,7 +43,7 @@
                 </div> -->
                 <!-- end:Top links -->
                 <!-- start: Inner page hero -->
-                    <br><br><br><br><br><br>
+                    <br><br><br>
                     <div class="profile" >
                         <div class="container">
                             <div class="row" align="center">
@@ -53,13 +53,13 @@
                             </div>
                         </div>
                     </div>
-            </section>
+            </section>      
                 <!-- end:Inner page hero -->
             <div class="page-wrapper">
                 <div class="breadcrumb">
                     <div class="container">
                         <ul>
-                            <li><a href="index.php" class="active">Home</a></li>
+                            <li><a href="index.php" class="active">Home</a></li>    
                             <li>Subscription</li>
                             <li>Select</li>
                         </ul>
@@ -71,7 +71,9 @@
                 <section class="selection">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="col-md-3 col-sm-12 col-xs-12"> 
+                                <div class="show-cart" align="center"><a href="#" class="btn theme-btn-dash" data-toggle="modal" data-target="#myCart">Show Cart</a></div> 
+                                            <!-- Cart Modal below the footer -->
                                 <div class="sidebar clearfix m-b-20">
                                         <div class="main-block">
                                             <div class="sidebar-title white-txt">
@@ -92,8 +94,16 @@
 
                                             </div>
                                         </div>
-                                </div>                                
+                                </div>
+
+                                <div class="col-md-3 col-sm-12 col-xs-12">
+
+
+
+                                </div>
+
                             </div>
+
 
                             <div class="col-md-9">
                                 <!-- Veg Subscription Card start -->
@@ -116,10 +126,23 @@
                                             <p>
                                                 Subscribe to our on-time Breakfast deliveries.
                                             </p>
+                                            <h2 style="font-weight: bolder">₹ 900/month</h2>
                                             <br>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h2 style="font-weight: bolder">₹ 900/month</h2>
+                                                    <div class="input-group">
+                                                        <span class="input-group-btn">
+                                                            <button type="button" class="veg-quantity-left-minus btn"  data-type="minus" data-field="">-
+                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" id="veg-quantity" name="veg-quantity" class="form-control input-number" value="1" min="1" max="9" size="2">
+                                                        <span class="input-group-btn">
+                                                            <button type="button" class="veg-quantity-right-plus btn" data-type="plus" data-field="">+
+                                                                <span class="glyphicon glyphicon-plus"></span>
+                                                            </button>
+                                                        </span>
+                                                    </div>                                                            
                                                 </div>
                                                 <div class="col-md-6">
                                                     <a href="#" class="btn theme-btn-dash">Subscribe Now</a>
@@ -151,10 +174,23 @@
                                             <p>
                                                 Subscribe to our on-time Breakfast deliveries.
                                             </p>
+                                            <h2 style="font-weight: bolder">₹ 900/month</h2>
                                             <br>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h2 style="font-weight: bolder">₹ 900/month</h2>
+                                                    <div class="input-group">
+                                                        <span class="input-group-btn">
+                                                            <button type="button" class="nonveg-quantity-left-minus btn"  data-type="minus" data-field="">-
+                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" id="nonveg-quantity" name="nonveg-quantity" class="form-control input-number" value="1" min="1" max="9" size="2">
+                                                        <span class="input-group-btn">
+                                                            <button type="button" class="nonveg-quantity-right-plus btn" data-type="plus" data-field="">+
+                                                                <span class="glyphicon glyphicon-plus"></span>
+                                                            </button>
+                                                        </span>
+                                                    </div>                                                            
                                                 </div>
                                                 <div class="col-md-6">
                                                     <a href="#" class="btn theme-btn-dash">Subscribe Now</a>
@@ -187,10 +223,23 @@
                                             <p>
                                                 Subscribe to our on-time Breakfast deliveries.
                                             </p>
+                                            <h2 style="font-weight: bolder">₹ 300/month</h2>
                                             <br>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h2 style="font-weight: bolder">₹ 300/month</h2>
+                                                    <div class="input-group">
+                                                        <span class="input-group-btn">
+                                                            <button type="button" class="smoothie-quantity-left-minus btn"  data-type="minus" data-field="">-
+                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" id="smoothie-quantity" name="smoothie-quantity" class="form-control input-number" value="1" min="1" max="9" size="2">
+                                                        <span class="input-group-btn">
+                                                            <button type="button" class="smoothie-quantity-right-plus btn" data-type="plus" data-field="">+
+                                                                <span class="glyphicon glyphicon-plus"></span>
+                                                            </button>
+                                                        </span>
+                                                    </div>                                                            
                                                 </div>
                                                 <div class="col-md-6">
                                                     <a href="#" class="btn theme-btn-dash">Subscribe Now</a>
@@ -246,6 +295,8 @@
         </div>
     <!--/end:Site wrapper -->
     </div>
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
@@ -259,6 +310,7 @@
     <script src="js/bar.js"></script>
     <script src="js/selection.js"></script>
 </body>
+
 
 
 <!-- Mirrored from codenpixel.com/demo/foodpicky/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 May 2018 04:52:38 GMT -->

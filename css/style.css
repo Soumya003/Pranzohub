@@ -3042,3 +3042,81 @@ a[aria-expanded=false] .fa-angle-down {
 .hidden{
     display: none;
 }
+
+.selection .input-group{
+    width:inherit;
+}
+
+
+.show-cart{
+    margin-bottom:20px;
+}
+
+.show-cart a{
+    width: 100%;
+}
+
+
+
+
+/* ==========================
+*   Cart Modal
+==========================5=*/
+
+
+.modal#myCart {
+  position: fixed;
+  left: 0;
+  transform: translate(0, 0);
+}
+
+
+.cart .modal-content{
+    width:auto;
+    height: inherit;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0 auto; 
+    /*border-color: #9ecaed;
+    box-shadow: 0 0 25px #f30;
+    outline: none;*/
+}
+
+.cart h4{
+    margin-top: 35px;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:36%;
+        margin:1.5em 0;
+    }
+    
+    .actions .btn-info{
+        float:left;
+    }
+    .actions .btn-danger{
+        float:right;
+    }
+    
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+    table#cart tbody tr td:first-child { color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block; width: 8rem;
+    }
+    
+    
+    
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+    
+}

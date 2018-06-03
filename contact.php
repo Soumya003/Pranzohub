@@ -41,7 +41,7 @@
                 </div> -->
                 <!-- end:Top links -->
                 <!-- start: Inner page hero -->
-                    <br><br><br><br><br><br>
+                    <br><br><br>
                     <div class="profile" >
                         <div class="container">
                             <div class="row" align="center">
