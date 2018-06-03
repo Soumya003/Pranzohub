@@ -3120,3 +3120,26 @@ a[aria-expanded=false] .fa-angle-down {
     table#cart tfoot td .btn{display:block;}
     
 }
+
+/* ==========================
+*   order Confirmation
+==========================5=*/
+.confirmation-section{
+    margin-top: 30px;
+}
+
+
+
+@media (orientation:landscape) and (max-width: 1000px) {    
+.confirmation-section h3{
+    text-align:center;
+}
+}
+
+@media (orientation:portrait) {
+.confirmation-section h3{
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
