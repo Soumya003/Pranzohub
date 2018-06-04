@@ -99,20 +99,34 @@
                                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"> 
                                             </div>
                                             <div class="form-group col-sm-12">
-                                               <label for="exampleTextarea">Example textarea</label>
+                                               <label for="exampleTextarea">Adress</label>
                                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                                             </div>
-                                         </div>
-                                         <div class="row">
                                             <div class="form-group col-sm-6">
-                                               <div class="btn-group" data-toggle="buttons">
-                                                  <label class="btn btn-secondary">
-                                                  <input type="radio" name="options" id="option1" checked> Business </label>
-                                                  <label class="btn btn-secondary">
-                                                  <input type="radio" name="options" id="option2"> Customer </label>
-                                               </div>
+                                               <label for="exampleInputEmail1">Locality</label>
+                                               <input class="form-control" type="text" placeholder="Rajmahal" id="example-text-input" list="area"> 
+                                                <datalist id="area">
+                                                    <option value="Rajmahal">
+                                                    <option value="Nayapalli">
+                                                    <option value="Bapuji Nagar">
+                                                    <option value="Ashok Nagar">
+                                                    <option value="Saheed Nagar">
+                                                </datalist>
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                               <label for="exampleInputEmail1">Pincode</label>
+                                               <input class="form-control" type="text" placeholder="751001" id="example-text-input-2"> 
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                               <label for="exampleInputEmail1">City/Town</label>
+                                               <input class="form-control" type="text" value="Bhubaneswar" id="example-text-input" disabled> 
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                               <label for="exampleInputEmail1">State</label>
+                                               <input class="form-control" type="text" value="Odisha" id="example-text-input-2" disabled> 
                                             </div>
                                          </div>
+                          
                                          <div class="row">
                                             <div class="col-sm-4">
                                                <p> <a href="#" class="btn theme-btn-dash">Register</a> </p>

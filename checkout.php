@@ -69,14 +69,14 @@
                         <!-- /widget heading -->
                         <div class="widget-heading">
                             <h3 class="widget-title text-dark">
-                                            Cart summary
+                                            Review personal details
                                         </h3>
                             <div class="clearfix"></div>
                         </div>
                         <div class="widget-body">
                             <form method="post" action="#">
                                 <div class="row">
-                                    <div class="col-sm-6 margin-b-30">
+                                    <div class="col-md-6 col-sm-12">
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="form-group">
@@ -92,47 +92,39 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Country*</label>
-                                                    <select class="form-control">
-                                                        <option>India</option>
-                                                        <option>USA</option>
-                                                        <option>UK</option>
-                                                        <option>Australia</option>
-                                                        <option>Japan</option>
-                                                        <option>Columbia</option>
-                                                        <option>Poland</option>
-                                                    </select>
-                                                </div>
-                                                <!--/form-group-->
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Company Name</label>
-                                                    <input type="text" class="form-control" placeholder="Lorem ipsum"> </div>
-                                                <!--/form-group-->
-                                            </div>
-                                        </div>
-                                        <div class="row">
                                             <div class="col-sm-12">
                                                 <div class="form-group">
                                                     <label>Full Address*</label>
-                                                    <input type="text" class="form-control" placeholder="124, Lorem Street.."> </div>
+                                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                                </div>
                                                 <!--/form-group-->
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="form-group">
-                                                    <label>City / State*</label>
-                                                    <input type="text" class="form-control" placeholder="Jaipur"> </div>
+                                                    <label></label>Area
+                                                    <input type="text" class="form-control" value="Nayapalli" disabled> </div>
                                                 <!--/form-group-->
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="form-group">
                                                     <label>Zip/ Postal Code*</label>
-                                                    <input type="text" class="form-control" placeholder="302012"> </div>
+                                                    <input type="text" class="form-control" value="751001" disabled> </div>
+                                                <!--/form-group-->
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>City</label>
+                                                    <input type="text" class="form-control" value="Jaipur" disabled=""> </div>
+                                                <!--/form-group-->
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>State</label>
+                                                    <input type="text" class="form-control" value="Odisha" disabled> </div>
                                                 <!--/form-group-->
                                             </div>
                                         </div>
@@ -151,7 +143,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-md-6 col-sm-12">
                                         <div class="cart-totals margin-b-20">
                                             <div class="cart-totals-title">
                                                 <h4>Cart Summary</h4> </div>
@@ -159,15 +151,75 @@
                                                 <table class="table">
                                                     <tbody>
                                                         <tr>
+                                                            <td>Cart Items</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="http://placehold.it/100x100" alt="..." class="img-responsive"/>
+                                                            </td>
+                                                            <td>
+                                                                <div class="row">
+                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                        <h4 align="center">Veg</h4>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 col-sm-12">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-12 col-sm-12">
+                                                                                        <p align="center">2 month(s)</p>
+                                                                                    </div>
+                                                                                    <div class="col-md-12 col-sm-12">
+                                                                                        <h6 align="center">01 May 18 - 01 July 18</h6>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>₹1800</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="http://placehold.it/100x100" alt="..." class="img-responsive"/>
+                                                            </td>
+                                                            <td>
+                                                                <div class="row">
+                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                        <h4 align="center">Smoothie</h4>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 col-sm-12">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-12 col-sm-12">
+                                                                                        <p align="center">2 month(s)</p>
+                                                                                    </div>
+                                                                                    <div class="col-md-12 col-sm-12">
+                                                                                        <h6 align="center">01 May 18 - 01 July 18</h6>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>₹600</td>
+                                                        </tr>
+                                                        <tr>
                                                             <td>Cart Subtotal</td>
+                                                            <td></td>
                                                             <td>$29.00</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Shipping &amp; Handling</td>
+                                                            <td></td>
                                                             <td>$2.00</td>
                                                         </tr>
                                                         <tr>
                                                             <td class="text-color"><strong>Total</strong></td>
+                                                            <td></td>
                                                             <td class="text-color"><strong>$31.00</strong></td>
                                                         </tr>
                                                     </tbody>

@@ -3270,3 +3270,49 @@ a[aria-expanded=false] .fa-angle-down {
 }
 
 }
+
+
+
+/* ========================================
+*   Checkout cart
+===========================================5=*/
+
+
+.item-col{
+    padding:0px;
+}
+
+.item-col h4{
+    padding-top:30px;
+}
+
+.item-col p{
+    padding-top: 20px;
+}
+
+@media (orientation:landscape) and (max-width: 920px) {    
+
+.item-col{
+    width: 100%;
+}
+
+.item-col h4{
+    padding-top:20px;
+}
+
+.item-col p{
+    padding-top: 10px;
+}
+
+}
+
+@media (orientation:portrait){
+    .cart-totals-fields{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .widget-body{
+        width: inherit;
+    }
+}
