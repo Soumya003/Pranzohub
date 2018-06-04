@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 
-                <!-- About Us Section start -->
+                <!-- Confirmation Section start -->
                 <div class="confirmation-section">
                     <div class="container">
                         <div class="about-inner-section">               
@@ -94,7 +94,7 @@
                     </div>
                 </div>
 
-                <!-- About Us Section End -->
+                <!-- Confirmation Section End -->
 
                 <section class="app-section">
                     <div class="app-wrap">

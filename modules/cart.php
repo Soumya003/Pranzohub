@@ -24,7 +24,7 @@
 													<div class="row">
 														<div class="col-md-5 col-sm-6 col-xs-6"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
 														<div class="col-md-7 col-sm-6 col-xs-6">
-															<h4 class="nomargin">Veg Breakfast</h4>
+															<h4 class="nomargin" align="center">Veg</h4>
 														</div>
 													</div>
 												</td>
@@ -51,7 +51,7 @@
 													<div class="row">
 														<div class="col-md-5 col-sm-6 col-xs-6"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
 														<div class="col-md-7 col-sm-6 col-xs-6">
-															<h4 class="nomargin">Smoothies</h4>
+															<h4 class="nomargin" align="center">Smoothies</h4>
 														</div>
 													</div>
 												</td>

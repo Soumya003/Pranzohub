@@ -3025,7 +3025,7 @@ a[aria-expanded=false] .fa-angle-down {
     float: left;
     width: 100%;
     font-size: 19px;
-    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    /*box-shadow: 0 1px 2px rgba(0,0,0,.1);*/
 }
 
 .selection .sidebar-title .custom-control-description{
@@ -3036,7 +3036,9 @@ a[aria-expanded=false] .fa-angle-down {
 .subscription-item{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    padding-top: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .hidden{
@@ -3056,6 +3058,55 @@ a[aria-expanded=false] .fa-angle-down {
     width: 100%;
 }
 
+
+.sticky-cart{
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
+}
+
+.food-group{
+    margin-left: 0px;
+    margin-right:0px;
+}
+
+@media (orientation:landscape) and (max-width: 840px) {    
+.sticky-cart{
+    width: 100%;
+    }
+
+    .food-group{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%; 
+    padding: 0px;
+   }
+   .subscription-item{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    margin-top:2px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+}
+
+@media (orientation:portrait){    
+   .food-group{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%; 
+    padding: 0px;
+   }
+   .subscription-item{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    margin-top:2px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+}
 
 
 
@@ -3089,7 +3140,7 @@ a[aria-expanded=false] .fa-angle-down {
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
 }
-@media screen and (max-width: 600px) {
+@media (orientation:landscape) and (max-width: 1000px) {
     table#cart tbody td .form-control{
         width:20%;
         display: inline !important;
@@ -3121,6 +3172,37 @@ a[aria-expanded=false] .fa-angle-down {
     
 }
 
+@media (orientation:portrait){
+    table#cart tbody td .form-control{
+        display: inline !important;
+    }
+    .actions .btn{
+        margin:1.5em 0;
+    }
+    
+    .actions .btn-info{
+        float:right;
+    }
+    .actions .btn-danger{
+        float:left;
+    }
+    
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block;}
+    table#cart tbody tr td:first-child { color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block;
+    }
+    
+    
+    
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+
+    
+}
+
 /* ==========================
 *   order Confirmation
 ==========================5=*/
@@ -3142,4 +3224,49 @@ a[aria-expanded=false] .fa-angle-down {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+}
+
+
+
+/* ========================================
+*   Privacy Policy and terms and Conditions
+===========================================5=*/
+
+.privacy{
+    padding-left:100px;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+
+.privacy li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+@media (orientation:landscape) and (max-width: 800px) {    
+.privacy{
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.privacy li{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+}
+
+@media (orientation:portrait) {
+.privacy{
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+
+.privacy li{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 }

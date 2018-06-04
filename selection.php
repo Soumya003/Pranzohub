@@ -71,7 +71,7 @@
                 <section class="selection">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-3 col-sm-12 col-xs-12"> 
+                            <div class="col-md-3 col-sm-12 col-xs-12 sticky-cart"> 
                                 <div class="show-cart" align="center"><a href="#" class="btn theme-btn-dash" data-toggle="modal" data-target="#myCart">Show Cart</a></div> 
                                             <!-- Cart Modal below the footer -->
                                 <div class="sidebar clearfix m-b-20">
@@ -95,17 +95,10 @@
                                             </div>
                                         </div>
                                 </div>
-
-                                <div class="col-md-3 col-sm-12 col-xs-12">
-
-
-
-                                </div>
-
                             </div>
 
 
-                            <div class="col-md-9">
+                            <div class="col-md-9 col-sm-12 col-xs-12 food-group">
                                 <!-- Veg Subscription Card start -->
                                 <div class="container-fluid subscription-item hidden" id="veg">
                                     <div class="row">
