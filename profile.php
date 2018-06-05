@@ -118,7 +118,7 @@
                                                <input class="form-control" type="text" value="Odisha" id="example-text-input-2" disabled> 
                                             </div>
                                          </div>
-                          
+                                          <br>
                                          <div class="row">
                                             <div class="col-md-4 col-sm-4">
                                                <p> <a href="#" class="btn theme-btn-dash">Edit Profile</a> </p>
@@ -127,7 +127,7 @@
                                                <p align="center"> <a href="#" class="btn theme-btn-dash">Edit Phone</a> </p>
                                             </div>
                                             <div class="col-md-4 col-sm-4">
-                                               <p align="right"> <a href="#" class="btn theme-btn-dash">Change Password</a> </p>
+                                               <p align="right"><button class="btn theme-btn-dash" id="change-pwd" onclick="selectFunction()">Change Password</button></p>
                                             </div>
                                          </div>
                                       </form>
@@ -142,8 +142,12 @@
                               <table class="table">
                                 <thead>
                                     <tr>
+                                        <th>Subscription Status:</th>
+                                        <th class="text-success">Active</th>
+                                    </tr>
+                                    <tr>
                                         <th>Current Subscription:</th>
-                                        <th>01 May 18 - 01 July 18</th>
+                                        <th class="text-success">01 May 18 - 01 July 18</th>
                                     </tr>
                                     <tr>
                                         <th>Subscription Item:</th>
@@ -163,8 +167,11 @@
                                         <th>Registered On:</th>
                                         <th>02 April 18</th>
                                     </tr>
+                                    
                                 </tbody>
                               </table>
+                              <hr>
+                              <?php include 'modules/change-password.php'; ?>
                             <!-- <div class="">
                                 <h4>Registration is fast, easy, and free.</h4>
                                 <p>Once you"re registered, you can:</p>
@@ -325,6 +332,7 @@
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
     <script src="js/bar.js"></script>
+    <script src="js/profile.js"></script>
 </body>
 
 

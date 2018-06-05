@@ -3143,6 +3143,10 @@ a[aria-expanded=false] .fa-angle-down {
 }
 
 
+#cart h4{
+    margin-top: 40px;
+}
+
 
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
@@ -3375,7 +3379,7 @@ a[aria-expanded=false] .fa-angle-down {
     
     table#subscription-table thead { display: none; }
     table#subscription-table tbody td { display: block; padding: .6rem; min-width:320px;}
-    table#subscription-table tbody tr td:first-child { color: #fff; }
+    table#subscription-table tbody tr td:first-child { border-top: 2px solid black; border-bottom: 2px solid black; }
     table#subscription-table tbody td:before {
         content: attr(data-th); font-weight: bold;
         display: inline-block; width: 8rem;
@@ -3407,7 +3411,7 @@ a[aria-expanded=false] .fa-angle-down {
     
     table#subscription-table thead { display: none; }
     table#subscription-table tbody td { display: block; padding: .6rem;}
-    table#subscription-table tbody tr td:first-child { color: #fff; }
+    table#subscription-table tbody tr td:first-child { border-top: 2px solid black; border-bottom: 2px solid black; }
     table#subscription-table tbody td:before {
         content: attr(data-th); font-weight: bold;
         display: inline-block; width: 8rem;
@@ -3423,4 +3427,16 @@ a[aria-expanded=false] .fa-angle-down {
 }
 
     
+}
+
+
+/* ==========================
+*   Datalist arrow remover
+==========================5=*/
+
+
+
+/* specifically hide the arrow on focus */
+input::-webkit-calendar-picker-indicator {
+    display: none;
 }

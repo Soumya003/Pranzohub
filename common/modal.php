@@ -18,6 +18,7 @@
 				            		</div>
 				            	</div>
 				                <br>
+				                <span class="text-danger hidden">*Invalid Username or Password</span>
 				                <form class="form-horizontal">
 				                  <fieldset>
 				                    <!-- Sign In Form -->
