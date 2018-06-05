@@ -122,22 +122,22 @@
                                             <h2 style="font-weight: bolder">₹ 900/month</h2>
                                             <br>
                                             <div class="row">
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <div class="input-group">
                                                         <span class="input-group-btn">
-                                                            <button type="button" class="veg-quantity-left-minus btn"  data-type="minus" data-field="">-
-                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                            <button type="button" class="veg-quantity-left-minus btn"  data-type="minus" data-field="">
+                                                              <i class="fa fa-minus" aria-hidden="true"></i>
                                                             </button>
                                                         </span>
                                                         <input type="text" id="veg-quantity" name="veg-quantity" class="form-control input-number" value="1" min="1" max="9" size="2">
                                                         <span class="input-group-btn">
-                                                            <button type="button" class="veg-quantity-right-plus btn" data-type="plus" data-field="">+
-                                                                <span class="glyphicon glyphicon-plus"></span>
+                                                            <button type="button" class="veg-quantity-right-plus btn" data-type="plus" data-field="">
+                                                                <i class="fa fa-plus" aria-hidden="true"></i>
                                                             </button>
                                                         </span>
                                                     </div>                                                            
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <a href="#" class="btn theme-btn-dash">Subscribe Now</a>
                                                 </div>
                                             
@@ -170,22 +170,22 @@
                                             <h2 style="font-weight: bolder">₹ 900/month</h2>
                                             <br>
                                             <div class="row">
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <div class="input-group">
                                                         <span class="input-group-btn">
-                                                            <button type="button" class="nonveg-quantity-left-minus btn"  data-type="minus" data-field="">-
-                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                            <button type="button" class="nonveg-quantity-left-minus btn"  data-type="minus" data-field="">
+                                                              <i class="fa fa-minus" aria-hidden="true"></i>
                                                             </button>
                                                         </span>
                                                         <input type="text" id="nonveg-quantity" name="nonveg-quantity" class="form-control input-number" value="1" min="1" max="9" size="2">
                                                         <span class="input-group-btn">
-                                                            <button type="button" class="nonveg-quantity-right-plus btn" data-type="plus" data-field="">+
-                                                                <span class="glyphicon glyphicon-plus"></span>
+                                                            <button type="button" class="nonveg-quantity-right-plus btn" data-type="plus" data-field="">
+                                                                <i class="fa fa-plus" aria-hidden="true"></i>
                                                             </button>
                                                         </span>
                                                     </div>                                                            
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <a href="#" class="btn theme-btn-dash">Subscribe Now</a>
                                                 </div>
                                             
@@ -219,22 +219,22 @@
                                             <h2 style="font-weight: bolder">₹ 300/month</h2>
                                             <br>
                                             <div class="row">
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <div class="input-group">
                                                         <span class="input-group-btn">
-                                                            <button type="button" class="smoothie-quantity-left-minus btn"  data-type="minus" data-field="">-
-                                                              <span class="glyphicon glyphicon-minus"></span>
+                                                            <button type="button" class="smoothie-quantity-left-minus btn"  data-type="minus" data-field="">
+                                                              <i class="fa fa-minus" aria-hidden="true"></i>
                                                             </button>
                                                         </span>
                                                         <input type="text" id="smoothie-quantity" name="smoothie-quantity" class="form-control input-number" value="1" min="1" max="9" size="2">
                                                         <span class="input-group-btn">
-                                                            <button type="button" class="smoothie-quantity-right-plus btn" data-type="plus" data-field="">+
-                                                                <span class="glyphicon glyphicon-plus"></span>
+                                                            <button type="button" class="smoothie-quantity-right-plus btn" data-type="plus" data-field="">
+                                                                <i class="fa fa-plus" aria-hidden="true"></i>
                                                             </button>
                                                         </span>
                                                     </div>                                                            
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <a href="#" class="btn theme-btn-dash">Subscribe Now</a>
                                                 </div>
                                             

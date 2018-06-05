@@ -159,10 +159,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="row">
-                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                    <div class="col-md-4 col-sm-12 col-xs-12 item-col">
                                                                         <h4 align="center">Veg</h4>
                                                                     </div>
-                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                    <div class="col-md-8 col-sm-12 col-xs-12 item-col">
                                                                         <div class="row">
                                                                             <div class="col-md-12 col-sm-12">
                                                                                 <div class="row">
@@ -186,10 +186,10 @@
                                                             </td>
                                                             <td>
                                                                 <div class="row">
-                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                    <div class="col-md-4 col-sm-12 col-xs-12 item-col">
                                                                         <h4 align="center">Smoothie</h4>
                                                                     </div>
-                                                                    <div class="col-md-6 col-sm-12 col-xs-12 item-col">
+                                                                    <div class="col-md-8 col-sm-12 col-xs-12 item-col">
                                                                         <div class="row">
                                                                             <div class="col-md-12 col-sm-12">
                                                                                 <div class="row">

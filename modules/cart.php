@@ -8,7 +8,7 @@
 					<div class="col-md-12">
 						<div id="myTabContent" class="tab-content">
 							<div class="container">
-								<table id="cart" class="table table-hover table-condensed">
+								<table id="cart" class="table table-condensed">
 					    				<thead>
 											<tr>
 												<th style="width:50%">Product</th>
@@ -22,15 +22,15 @@
 											<tr>
 												<td data-th="Product">
 													<div class="row">
-														<div class="col-md-5 col-sm-6 col-xs-6"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
-														<div class="col-md-7 col-sm-6 col-xs-6">
+														<div class="col-md-5 col-sm-5 col-xs-5"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
+														<div class="col-md-7 col-sm-7 col-xs-7">
 															<h4 class="nomargin" align="center">Veg</h4>
 														</div>
 													</div>
 												</td>
 												<td data-th="Price">$1.99</td>
-												<td data-th="Quantity">
-													<input type="number" class="form-control text-center" value="1">
+												<td data-th="Month(s)">
+													<input type="number" class="form-control text-center" value="1" max="9" min="1">
 												</td>
 												<td data-th="Subtotal" class="text-center">1.99</td>
 												<td class="actions" data-th="">
@@ -56,8 +56,8 @@
 													</div>
 												</td>
 												<td data-th="Price">$1.99</td>
-												<td data-th="Quantity">
-													<input type="number" class="form-control text-center" value="1">
+												<td data-th="Month(s)">
+													<input type="number" class="form-control text-center" value="1" max="9" min="1">
 												</td>
 												<td data-th="Subtotal" class="text-center">1.99</td>
 												<td class="actions" data-th="">
